@@ -1,0 +1,13 @@
+#File extension program:
+import os
+file =input("enter the file name")
+fe=os.path.splitext(file)
+if fe[1]== ".py":
+    print("The extension file is :python")
+elif fe[1]== ".txt":
+    print("The extension file is :text document")
+elif fe[1]== ".pdf":
+    print("The extension file is pdf")
+else:
+    print("wrong input")
+
